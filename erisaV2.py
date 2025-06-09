@@ -12,7 +12,7 @@ from document_loaders.template_loader import load_templates_from_json
 from file_operations.saving_result_in_file import save_results
 from prompts_operation.prompts_operations import generate_prompts
 from utils import split_query_by_length_with_overlap
-
+#python erisaV2.py -i ./input -if erisadoc.pdf -f pdf
 # Logging setup
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
